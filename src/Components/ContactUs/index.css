@@ -1,0 +1,48 @@
+.contact-main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  min-height: 90vh;
+}
+.contact-bg-container {
+  background-image: url("https://res.cloudinary.com/dqrp5aeqy/image/upload/v1733980544/contact-image_cpdyjw.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.8);
+  background-blend-mode: overlay;
+  width: 40%;
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px rgb(105, 104, 104);
+}
+.contact-sub-container {
+  line-height: 2;
+}
+.contact-span {
+  font-family: "Simplon Norm";
+  color: rgb(54, 52, 52);
+  font-size: 18px;
+  font-weight: 600;
+}
+.contact-details {
+  font-family: "Simplon Norm";
+}
+@media (max-width: 768px) {
+  .contact-bg-container {
+    width: 100%;
+    min-height: 50vh;
+  }
+  .contact-main-container {
+    padding: 25px;
+  }
+  .contact-sub-container {
+    padding: 10px;
+  }
+}

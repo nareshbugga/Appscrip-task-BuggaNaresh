@@ -1,0 +1,62 @@
+.footer-bg-container {
+  width: 100%;
+  background-color: rgb(201, 198, 198);
+  min-height: 14vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.follow-us-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  border: 1px solid rgb(37, 37, 37);
+  padding: 8px;
+  margin-right: 20px;
+  margin-top: 15px;
+}
+
+.follow-us-icon:hover {
+  cursor: pointer;
+  box-shadow: 3px 3px 6px rgb(58, 58, 58);
+}
+.follow-us-heading {
+  font-family: "Simplon Norm";
+  font-weight: bold;
+  font-size: 30px;
+  color: rgb(33, 33, 33);
+  margin: 10px 0px;
+}
+.follow-tag-line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  margin-right: 10px;
+}
+.tag-line {
+  font-family: "Simplon Norm";
+  font-weight: 600;
+  font-size: 15px;
+  color: rgb(48, 28, 28);
+}
+@media (max-width: 768px) {
+  .follow-us-icon {
+    width: 30px;
+    height: 30px;
+  }
+  .follow-us-heading {
+    font-size: 20px;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .follow-us-icon {
+    width: 35px;
+    height: 35px;
+  }
+  .follow-us-heading {
+    font-size: 25px;
+  }
+}

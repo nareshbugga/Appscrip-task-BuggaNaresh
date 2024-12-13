@@ -1,0 +1,127 @@
+.stories-bg-container {
+  background-image: url("https://res.cloudinary.com/dqrp5aeqy/image/upload/v1733936111/background_stories_image_k8q0tb.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  min-height: 120vh;
+  background-color: rgba(255, 255, 255, 0.8);
+  background-blend-mode: overlay;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.stories-sub-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-container {
+  min-height: 50px;
+}
+.form-container {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.comment-card-heading {
+  font-family: "Simplon Norm";
+  color: rgb(24, 5, 5);
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.label {
+  font-family: "Simplon Norm";
+  color: rgb(24, 5, 5);
+  font-size: 18px;
+  font-weight: 600;
+}
+.input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: all 0.3s ease-in-out;
+}
+input:focus {
+  border-color: #565656;
+  box-shadow: 0 0 8px rgba(107, 107, 108, 0.5);
+  outline: none;
+}
+.button {
+  background-color: #a5a5a5;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 0;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button:hover {
+  background-color: #7d7d7e; /* Darker shade on hover */
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.button:active {
+  background-color: #7a7b7b;
+  transform: scale(0.95);
+}
+.error-msg {
+  color: red;
+  font-family: "Simplon Norm";
+  font-size: 16px;
+  margin-top: 10px;
+}
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.card-heading {
+  font-family: "Simplon Norm";
+  color: rgb(24, 5, 5);
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.card-description {
+  font-family: "Simplon Norm";
+  color: rgb(27, 23, 23);
+  font-size: 16px;
+  line-height: 1.5;
+}
+@media (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .comment-card-heading {
+    font-size: 20px;
+  }
+  .card-heading {
+    font-size: 18px;
+  }
+  .card-description {
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,42 @@
+.about-card-container {
+  background-image: url("https://res.cloudinary.com/dqrp5aeqy/image/upload/v1733933074/Background-image_o8gstd.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  min-height: 100vh;
+  background-color: rgba(255, 255, 255, 0.8);
+  background-blend-mode: overlay;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sub-container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about-heading {
+  font-family: "Simplon Norm";
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.about-description {
+  font-family: "Simplon Norm";
+  font-size: 20px;
+  line-height: 1.5;
+}
+.offer-line {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
+  font-size: 18px;
+}
+.tag-lin {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 800;
+  font-size: 18px;
+  margin-top: 20px;
+}

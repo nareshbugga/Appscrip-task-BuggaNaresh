@@ -1,0 +1,63 @@
+.home-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 5px;
+  height: 50vh;
+  padding: 10px;
+  text-align: center;
+}
+.home-sub-container {
+  width: 85%;
+  margin-bottom: 10px;
+}
+.home-card-heading {
+  font-family: "Simplon Norm";
+  color: #0a0a0a;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.home-description-card {
+  font-family: "Simplon Norm";
+  color: #0a0a0a;
+  font-size: 20px;
+  line-height: 1.5;
+}
+.sort-icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.sort-icon {
+  margin-right: 10px;
+}
+.sort-heading {
+  font-family: "Simplon Norm";
+  color: #0a0a0a;
+  font-size: 18px;
+  font-weight: 500;
+}
+.filter {
+  width: 12%;
+  height: 40px;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 550;
+  color: black;
+  outline: none;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .home-card-heading {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  .home-description-card {
+    font-size: 14px;
+  }
+  .home-card-container {
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,29 @@
+.comment-name-container {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+.comment-list-container {
+  width: 65%;
+  min-height: 50px;
+  list-style: none;
+  border: 1px rgb(108, 107, 107) solid;
+  box-shadow: 1px 1px 5px rgb(57, 57, 57);
+  border-radius: 4px;
+  margin-top: 10px;
+  padding: 10px;
+}
+.star {
+  margin-right: 10px;
+}
+.comment-name {
+  font-family: "Simplon Norm";
+  font-size: 18px;
+  color: rgb(41, 41, 41);
+}
+@media (max-width: 768px) {
+  .comment-list-container {
+    width: 90%;
+    margin-left: 10px;
+  }
+}
